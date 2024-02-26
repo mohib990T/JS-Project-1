@@ -1,0 +1,194 @@
+body {
+  background-image: linear-gradient(
+    to top right,
+    rgb(68, 100, 206),
+    rgb(190, 36, 190)
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  margin-left: 115px;
+  height: 60px;
+}
+.main-1 {
+  height: 250px;
+  width: 450px;
+  padding: 20px;
+  background-color: thistle;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.select_time {
+  display: flex;
+  align-items: center;
+}
+.image {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+#wakeup_time {
+  height: 25px;
+  width: 200px;
+  margin-left: 40px;
+  background-image: linear-gradient(
+    to top right,
+    rgb(68, 100, 206),
+    rgb(190, 36, 190)
+  );
+}
+#lunch_time {
+  height: 25px;
+  width: 200px;
+  margin-left: 55px;
+  background-image: linear-gradient(
+    to top right,
+    rgb(68, 100, 206),
+    rgb(190, 36, 190)
+  );
+}
+.lunch_option {
+  background-image: linear-gradient(
+    to top right,
+    rgb(68, 100, 206),
+    rgb(190, 36, 190)
+  );
+}
+#nap_time {
+  height: 25px;
+  width: 200px;
+  margin-left: 68px;
+  background-image: linear-gradient(
+    to top right,
+    rgb(68, 100, 206),
+    rgb(190, 36, 190)
+  );
+}
+#dinner_time {
+  height: 25px;
+  width: 200px;
+  margin-left: 48px;
+  background-image: linear-gradient(
+    to top right,
+    rgb(68, 100, 206),
+    rgb(190, 36, 190)
+  );
+}
+h4 {
+  margin-right: 30px;
+  margin-left: 10px;
+  color: slateblue;
+}
+#morning {
+  margin-top: 35px;
+  background-color: thistle;
+  color: slateblue;
+  height: 25px;
+  width: 430px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  font-size: x-large;
+}
+#timing {
+  display: flex;
+  justify-content: center;
+}
+button {
+  height: 40px;
+  width: 120px;
+  padding: 5px;
+  border-radius: 7px;
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+  background-color: thistle;
+  color: slateblue;
+  margin: 0 0 10px 150px;
+}
+button:hover {
+  color: thistle;
+  background-color: rgb(190, 36, 190);
+  cursor: pointer;
+}
+.display {
+  height: 160px;
+  width: 350px;
+  background-color: thistle;
+  color: slateblue;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.main-2 {
+  margin-top: 20px;
+}
+.time_display {
+  height: 100px;
+  width: 430px;
+  border-radius: 8px;
+  background-color: thistle;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.change {
+  height: 40px;
+  width: 430px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: thistle;
+}
+#time {
+  font-size: larger;
+  margin-right: 10px;
+  font-weight: bold;
+  color: slateblue;
+}
+p {
+  font-weight: 800;
+}
+.current_time {
+  background-image: url(./image/timeline.svg);
+  height: 70px;
+  width: 70px;
+  margin: 0 10px;
+  text-align: center;
+  color: rgb(190, 36, 190);
+}
+.time_session {
+  background-image: url(./image/am_svg.svg);
+  height: 70px;
+  width: 70px;
+  margin: 0 10px;
+  text-align: center;
+  color: thistle;
+}
+#session {
+  padding-top: 8px;
+  font-size: larger;
+}
+#change_text {
+  height: 40px;
+  align-items: center;
+  padding-top: 7px;
+  color: slateblue;
+  font-size: 22px;
+  font-weight: bold;
+}
+#change_pic {
+  border-radius: 7px;
+  padding: 6px;
+  background-image: linear-gradient(
+    to top right,
+    rgb(190, 36, 190),
+    rgb(68, 100, 206)
+  ); 
+  width: 450px;
+  height: 310px;
+}
